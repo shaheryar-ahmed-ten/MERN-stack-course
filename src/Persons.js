@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Person from './Person'
 
 export default function Persons() {
+  
     const [persons,setPersons] = useState([
         {
           id:1,
